@@ -1,31 +1,32 @@
+import {v4 as uuid} from 'uuid'
 export const CATEGORIES = ["All", "Code", "Food", "Money", "Misc"];
 
 export const TASKS = [
-  {
+  {id:uuid(),
     text: "Buy rice",
     category: "Food",
   },
-  {
+  {id:uuid(),
     text: "Save a tenner",
     category: "Money",
   },
-  {
+  {id:uuid(),
     text: "Build a todo app",
     category: "Code",
   },
-  {
+  {id:uuid(),
     text: "Build todo API",
     category: "Code",
   },
-  {
+  {id:uuid(),
     text: "Get an ISA",
     category: "Money",
   },
-  {
+  {id:uuid(),
     text: "Cook rice",
     category: "Food",
   },
-  {
+  {id:uuid(),
     text: "Tidy house",
     category: "Misc",
   },
